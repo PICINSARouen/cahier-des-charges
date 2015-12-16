@@ -1,3 +1,4 @@
+# Fonctionnalités
 
 ## Projet PIC
 

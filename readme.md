@@ -1,5 +1,4 @@
-Cahier des charges pour la nouvelle version de PGPic
-------------------------------
+# Cahier des charges pour la nouvelle version de PGPic
 
 ## Objectif du logiciel
 
