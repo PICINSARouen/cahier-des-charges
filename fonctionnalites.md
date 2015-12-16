@@ -10,9 +10,12 @@ Il doit être possible de créer des projets et des élèves-ingénieurs en lign
 
 Un élève-ingénieur est une partie prenante du PIC. Une partie prenante du PIC est composée de :
 
-* un nom ;
-* un prénom ;
-* une adresse mail ;
+* un nom (un texte) ;
+* un prénom (un texte) ;
+* un mot de passe (un *hash*) ;
+* une adresse mail (un texte).
+
+Le *hash* doit être sécurisé via un algorithme performant comme BCrypt.
 
 ## Documents
 
