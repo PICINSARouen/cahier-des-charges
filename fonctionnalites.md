@@ -85,7 +85,7 @@ Lors d'un problème durant le projet, un fait technique doit être émi. Un fait
     * une information sur l'efficacité de la correction (un booléen) ;
     * un avis d'efficacité de la correction (un texte) ;
 
-Un niveau de gravité est composé d'un nom (un texte). Un type de FT est composé d'un nom (un texte). Une source de FT est composé d'un nom (un texte).
+Un niveau de gravité est composé d'un nom (un texte). Un type de FT est composé d'un nom (un texte). Une source de FT est composé d'un nom (un texte). Il n'est pas nécessaire de créer une interface pour modifier ces champs mais il doit être possible d'en ajouter, d'en modifier et d'en supprimer via la base de données.
 
 Une analyse des causes est composée de *pourquoi*. Un pourquoi est composé d'une description (un texte) et de sous *pourquoi*.
 

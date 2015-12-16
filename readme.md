@@ -12,3 +12,4 @@ Comme dit précédemment, les premières fonctionnalités évoquées seront des 
 
 * [Gestion de projet](gestion-de-projet.md)
 * [Fonctionnalités](fonctionnalites.md)
+* [Présentation](presentation.md)
