@@ -1,5 +1,4 @@
-Gestion de projet
------------------
+# Gestion de projet
 
 ## Gestion des sources
 
