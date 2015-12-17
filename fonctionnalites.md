@@ -73,12 +73,16 @@ Lors d'un problème durant le projet, un fait technique doit être émi. Un fait
     * un type (un *type de FT*) ;
     * une source (une *source de FT*) ;
     * une description (un texte).
-* Analyse et corrections :
-    * une date d'analyse (une date) ;
-    * une liste de participants (une liste de *parties intéressées*) ;
+* Analyse des causes et choix des corrections :
+    * une date d'analyse des causes (une date) ;
+    * une liste de participants à l'analyse des causes (une liste de *parties intéressées*) ;
     * une conséquence (un texte) ;
     * une *analyse des causes* ;
     * une liste de *corrections*.
+* Clôture :
+    * une condition de clôture (un texte) ;
+    * un auteur de la clôture (une *partie intéressée*) ;
+    * une date de clôture (une date).
 * Analyse à froid :
     * une date d'analyse (une date) ;
     * une liste de participants (une liste de *parties intéressées*) ;
@@ -91,15 +95,15 @@ Une analyse des causes est composée de *pourquoi*. Un pourquoi est composé d'u
 
 Une correction est composée de :
 
+* un type de correction (un *type de correction*) ;
 * une description (un texte) ;
 * une liste de points à vérifier (liste de textes) ;
 * un correcteur (une *partie intéressée*) ;
 * une estimation de la durée en secondes (un entier) ;
 * une limite de correction (une date) ;
-* une date de correction (une date) ;
 * une liste d'articles ouverts à la correction (une liste de *documents*) ;
+* une date de correction (une date) ;
 * un vérificateur (une *partie intéressée*) ;
-* une date de vérification (une date) ;
-* une condition de clôture (un texte) ;
-* un auteur de la clôture (une *partie intéressée*) ;
-* une date de clôture (une date).
+* une date de vérification (une date).
+
+Un type de correction est composé d'un nom (un texte). Comme pour la gravité, le type de FT et la source de FT, il n'est pas nécessaire de créer une interface pour modifier ce champs mais il doit être possible d'en ajouter, d'en modifier et d'en supprimer via la base de données.
