@@ -61,7 +61,7 @@ La visualisation des réunions est effectuée par un tableau récapitulatif avec
 
 Le logiciel doit être capable de gérer le cycle correctif du PIC respectant la norme ISO 9001.
 
-Lors d'un problème durant le projet, un fait technique doit être émi. Un fait technique est composé de trois parties.
+Lors d'un problème durant le projet, un fait technique doit être émis. Un fait technique est composé de trois parties.
 
 * Description :
     * un numéro de FT (un entier) ;
@@ -89,7 +89,7 @@ Lors d'un problème durant le projet, un fait technique doit être émi. Un fait
     * une information sur l'efficacité de la correction (un booléen) ;
     * un avis d'efficacité de la correction (un texte) ;
 
-Un niveau de gravité est composé d'un nom (un texte). Un type de FT est composé d'un nom (un texte). Une source de FT est composé d'un nom (un texte). Il n'est pas nécessaire de créer une interface pour modifier ces champs mais il doit être possible d'en ajouter, d'en modifier et d'en supprimer via la base de données.
+Un niveau de gravité est composé d'un nom (un texte). Un type de FT est composé d'un nom (un texte). Une source de FT est composée d'un nom (un texte). Il n'est pas nécessaire de créer une interface pour modifier ces champs mais il doit être possible d'en ajouter, d'en modifier et d'en supprimer via la base de données.
 
 Une analyse des causes est composée de *pourquoi*. Un pourquoi est composé d'une description (un texte) et de sous *pourquoi*.
 
@@ -106,4 +106,4 @@ Une correction est composée de :
 * un vérificateur (une *partie intéressée*) ;
 * une date de vérification (une date).
 
-Un type de correction est composé d'un nom (un texte). Comme pour la gravité, le type de FT et la source de FT, il n'est pas nécessaire de créer une interface pour modifier ce champs mais il doit être possible d'en ajouter, d'en modifier et d'en supprimer via la base de données.
+Un type de correction est composé d'un nom (un texte). Comme pour la gravité, le type de FT et la source de FT, il n'est pas nécessaire de créer une interface pour modifier ce champ mais il doit être possible d'en ajouter, d'en modifier et d'en supprimer via la base de données.
