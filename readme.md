@@ -8,8 +8,9 @@ Ce logiciel doit pouvoir être développé de manière itérative. Une grande at
 
 ## Fonctionnalités
 
-Comme dit précédemment, les premières fonctionnalités évoquées seront des méta-fonctionnalités du logiciel permettant des mises à jour et des ajouts de fonctionnalités aisément.
+Comme dit précédemment, les premières fonctionnalités évoquées seront des instructions concernant [le développement du logiciel]((gestion-de-projet.md)) en lui même permettant des mises à jour et des ajouts de fonctionnalités aisément. Nous décrirons ensuite [les fonctionnalités](fonctionnalites.md) et l'[aspect visuel et esthétique](presentation.md) du logiciel. Enfin, nous parlerons des quelques [autres demandes](autres-demandes.md).
 
-* [Gestion de projet](gestion-de-projet.md)
+* [Développement du logiciel](gestion-de-projet.md)
 * [Fonctionnalités](fonctionnalites.md)
 * [Présentation](presentation.md)
+* [Autres demandes](autres-demandes.md)
